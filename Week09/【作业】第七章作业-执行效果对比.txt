@@ -1,0 +1,71 @@
+【参照物：初始执行效果】
+
+
+		C:\ProgramData\Anaconda3\envs\pythonProject\python.exe C:/Users/admin/PycharmProjects/pythonProject/AITrainCamp/LightGBM/LightGBM_homework_D7.py
+		[1]	valid_0's l1: 0.690925	valid_0's l2: 0.822734
+		Training until validation scores don't improve for 5 rounds
+		[2]	valid_0's l1: 0.666405	valid_0's l2: 0.794289
+		[3]	valid_0's l1: 0.643169	valid_0's l2: 0.768852
+		[4]	valid_0's l1: 0.621095	valid_0's l2: 0.745824
+		[5]	valid_0's l1: 0.600185	valid_0's l2: 0.725242
+		[6]	valid_0's l1: 0.580243	valid_0's l2: 0.706188
+		[7]	valid_0's l1: 0.561247	valid_0's l2: 0.688842
+		[8]	valid_0's l1: 0.54311	valid_0's l2: 0.672591
+		[9]	valid_0's l1: 0.526148	valid_0's l2: 0.658917
+		[10]	valid_0's l1: 0.510933	valid_0's l2: 0.645877
+		[11]	valid_0's l1: 0.49756	valid_0's l2: 0.634688
+		[12]	valid_0's l1: 0.48539	valid_0's l2: 0.623722
+		[13]	valid_0's l1: 0.474507	valid_0's l2: 0.613394
+		[14]	valid_0's l1: 0.464655	valid_0's l2: 0.603666
+		[15]	valid_0's l1: 0.456252	valid_0's l2: 0.595855
+		[16]	valid_0's l1: 0.448604	valid_0's l2: 0.588223
+		[17]	valid_0's l1: 0.442636	valid_0's l2: 0.580856
+		[18]	valid_0's l1: 0.436781	valid_0's l2: 0.574106
+		[19]	valid_0's l1: 0.431692	valid_0's l2: 0.568667
+		[20]	valid_0's l1: 0.426321	valid_0's l2: 0.561482
+		Did not meet early stopping. Best iteration is:
+		[20]	valid_0's l1: 0.426321	valid_0's l2: 0.561482
+		The rmse of prediction is: 0.7493211265737936
+		Feature importances: [138, 0, 19, 82, 30, 85, 13, 233, 0, 0]
+		------------------------------------------------------------
+		Best parameters found by grid search are: {'learning_rate': 0.1, 'n_estimators': 40}
+		------------------------------------------------------------
+
+		Process finished with exit code 0
+
+
+
+———————————————— ———————————————— ———————————————— ———————————————— ———————————————— 
+增加衍生变量1之后的效果：
+
+		C:\ProgramData\Anaconda3\envs\pythonProject\python.exe C:/Users/admin/PycharmProjects/pythonProject/AITrainCamp/LightGBM/LightGBM_homework_D7.py
+		[1]	valid_0's l1: 0.687708	valid_0's l2: 0.806534
+		Training until validation scores don't improve for 5 rounds
+		[2]	valid_0's l1: 0.663191	valid_0's l2: 0.777749
+		[3]	valid_0's l1: 0.639861	valid_0's l2: 0.751725
+		[4]	valid_0's l1: 0.617841	valid_0's l2: 0.728692
+		[5]	valid_0's l1: 0.59693	valid_0's l2: 0.70768
+		[6]	valid_0's l1: 0.577148	valid_0's l2: 0.689084
+		[7]	valid_0's l1: 0.558355	valid_0's l2: 0.672242
+		[8]	valid_0's l1: 0.540387	valid_0's l2: 0.656151
+		[9]	valid_0's l1: 0.523093	valid_0's l2: 0.641032
+		[10]	valid_0's l1: 0.508127	valid_0's l2: 0.628153
+		[11]	valid_0's l1: 0.494486	valid_0's l2: 0.615111
+		[12]	valid_0's l1: 0.482433	valid_0's l2: 0.604811
+		[13]	valid_0's l1: 0.471403	valid_0's l2: 0.594126
+		[14]	valid_0's l1: 0.46199	valid_0's l2: 0.585114
+		[15]	valid_0's l1: 0.453437	valid_0's l2: 0.576459
+		[16]	valid_0's l1: 0.445774	valid_0's l2: 0.5681
+		[17]	valid_0's l1: 0.439455	valid_0's l2: 0.560786
+		[18]	valid_0's l1: 0.433786	valid_0's l2: 0.554576
+		[19]	valid_0's l1: 0.42856	valid_0's l2: 0.548322
+		[20]	valid_0's l1: 0.423487	valid_0's l2: 0.541143
+		Did not meet early stopping. Best iteration is:
+		[20]	valid_0's l1: 0.423487	valid_0's l2: 0.541143
+		The rmse of prediction is: 0.7356245170509321
+		Feature importances: [129, 0, 23, 73, 38, 73, 6, 240, 0, 0, 18]
+		------------------------------------------------------------
+		Best parameters found by grid search are: {'learning_rate': 0.1, 'n_estimators': 40}
+		------------------------------------------------------------
+
+		Process finished with exit code 0
